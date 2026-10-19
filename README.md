@@ -38,4 +38,4 @@ const response = await client.infer({
 
 ## License
 
-MIT © [Felipe Madson](https://github.com/FelipeMadson)
+MIT © [Felipe Madison](https://github.com/FelipeMadson)
