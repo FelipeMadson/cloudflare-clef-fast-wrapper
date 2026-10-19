@@ -1,0 +1,25 @@
+{
+  "name": "cloudflare-clef-fast-wrapper",
+  "version": "1.0.0",
+  "description": "High-throughput, resilient client wrapper with circuit-breaker and rate-limiting for Cloudflare clef AI models",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/client.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers-ai",
+    "clef",
+    "circuit-breaker",
+    "rate-limiter",
+    "resilience"
+  ],
+  "author": "Felipe Madson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
